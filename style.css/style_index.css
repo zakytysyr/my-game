@@ -19,7 +19,7 @@ body {
   background-color: #3c5abe;
   
   border-bottom: 3px solid black;
-   height: 100px;
+   height: 80px;
   
   border-top: 3px solid black;
   flex-wrap: wrap; 
@@ -39,7 +39,7 @@ body {
   background-color: #3c5abe; 
   
   justify-content: center; 
-  padding:  10px 110px;
+  padding:  10px 110px 0;
   height: 70px;
 }
 
@@ -51,16 +51,17 @@ body {
 
 
   @media  (max-width:768px)
-{
+  {
    .navbar{
     grid-template-columns: auto;
+
    }
    .navbar a{
     border-left: none;
     width: 100% ;
     display: block;
     height: 50px;
-     border-bottom: 3px solid black;
+    border-bottom: 3px solid black;
    }
    .navbar:hover{
     background-color:#3c5abe ;
@@ -69,7 +70,21 @@ body {
     justify-content: center;
     margin-right: 85px;
    }
+   
   }
+  
+  @media(max-width:768){
+    .navbar a{
+      height: 50px;
+      width: 33px;
+      padding: 50px;
+      font-size: 28px;
+    }
+    
+  }
+  
+
+
   .form-box {
     background-color: #fcae91;
     display: inline-block;
@@ -77,11 +92,10 @@ body {
     border: 10px; 
     margin: 208px 0;
   }
-  @media (max-width:768px)
+  @media  (max-width:768px){
     .form-box{
       margin: 280px 32px 110px;
-      width: 250px;
-      width:250px
+       width: 250px;
       justify-content: center;
       display: block;
     }
@@ -91,10 +105,12 @@ body {
     padding: 20px;
     width: 200px;
     border: 3px solid #3c5abe;
+    /* border-radius: 5px; */ 
     font-weight: bold;
     font-size: 20px; 
     text-align: center;
   }
+  
 
   button {
     margin-top: 15px;
