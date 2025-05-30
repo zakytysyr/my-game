@@ -1,0 +1,178 @@
+body {
+  background-color: #3c5abe;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin:  0;
+  padding: 0;
+  direction: rtl;
+  border-right:3px solid black ;
+  border-left:3px solid black ;
+  border-bottom:3px solid black ;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #3c5abe;
+  
+  border-bottom: 3px solid black;
+   height: 100px;
+  
+  border-top: 3px solid black;
+  flex-wrap: wrap; 
+  display: flex;
+} 
+.im{
+  background-position: right;  
+ 
+}
+
+
+.navbar a {
+  
+  cursor: pointer;
+  border-left: 3px solid black;
+  text-decoration: none;
+  background-color: #3c5abe; 
+  
+  justify-content: center; 
+  padding:  0 110px;
+ padding-top: 30px; height: 70px;
+}
+
+.navbar :hover {
+  background-color: #a1c7e3;
+  color: black;
+  
+}
+
+
+  @media(max-width:768px){
+   .navbar{
+    grid-template-columns: auto;
+   }
+   .navbar a{
+    border-left: none;
+    width: 100% ;
+    display: block;
+    height: 60px;
+   }
+   .navbar:hover{
+    background-color:#3c5abe ;
+   }
+   .im{
+    width: 0;
+    justify-content: center;
+    margin-right: 85px;
+   }
+   .p{
+    width: 400px;
+    display: block;
+   }
+   .t{
+    border-bottom: 3px solid black;
+   }
+  }
+  
+ .p{
+  border-bottom: 3px solid black;
+  height: 103px;
+  
+}
+.p:hover{
+background-color: #a1c7e3;
+  color: black;
+} 
+.y{
+  border-bottom: 3px solid black;
+  height: 103px;
+  
+}
+.y:hover{
+background-color: #a1c7e3;
+  color: black;
+}
+
+  .form-box {
+    background-color: #fcae91;
+    display: inline-block;
+    padding: 39px 45px;
+    border: 10px; 
+    margin: 208px 0;
+  }
+  @media (max-width :768px){
+    .form-box{
+      margin: 400px 8px;
+      width: 250px;
+      justify-content: center;
+      display: block;
+    }
+  }
+
+  input[type="text"] {
+    padding: 20px;
+    width: 200px;
+    border: 3px solid #3c5abe;
+    /* border-radius: 5px; */ 
+    font-weight: bold;
+    font-size: 20px; 
+    text-align: center;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 30px;
+    background-color: #6985e3;
+    border: none;
+    cursor: pointer; 
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color: #aaa;
+  }
+  
+   .y 
+  {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #3c5abe;
+  }
+  
+  .t 
+  {
+  color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+
+  .p
+  {
+    color: white;
+    text-decoration: none;
+    font-size: 30px; 
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #3c5abe;
+  }
+  .s{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 30px; 
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #3c5abe;
+  }
+  
+  
+  
