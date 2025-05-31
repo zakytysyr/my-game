@@ -95,10 +95,10 @@ body {
   }
   @media  (max-width:768px){
     .form-box{
-      margin: 370px 45px;
-       width: 250px;
+      margin: 370px 0;
       justify-content: center;
       display: block;
+      width: 250px;
     }
   }
 
