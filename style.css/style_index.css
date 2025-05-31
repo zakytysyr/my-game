@@ -94,7 +94,7 @@ body {
   }
   @media  (max-width:768px){
     .form-box{
-      margin: 350px 32px 110px;
+      margin: 325px 39px 110px;
        width: 250px;
       justify-content: center;
       display: block;
