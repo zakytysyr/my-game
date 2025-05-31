@@ -54,7 +54,7 @@ body {
   {
    .navbar{
     grid-template-columns: auto;
-    height: 95px;
+    height: 100px;
     justify-content: center;
    
    }
@@ -62,7 +62,7 @@ body {
     border-left: none;
     width: 100% ;
     display: block;
-    height: 50px;
+    height: 60px;
     border-bottom: 3px solid black;
    }
    .navbar:hover{
@@ -95,7 +95,7 @@ body {
   }
   @media  (max-width:768px){
     .form-box{
-      margin: 370px 0;
+      margin: 320px 5px;
       justify-content: center;
       display: block;
       width: 250px;
