@@ -69,7 +69,7 @@ body {
   background-color:#3c5abe ;
  }
  .im{
-  height: auto;
+  height: 98px;
 }
  
 }
@@ -103,7 +103,7 @@ body {
       justify-content: center;
       display: block;
       width: 140px;
-      height: 97px;
+      height: 200px;
       margin: 270px 10px;
     }
   }
