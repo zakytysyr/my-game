@@ -54,7 +54,7 @@ body {
   {
    .navbar{
     grid-template-columns: auto;
-        height: 110px;
+        height: 80px;
    }
    .navbar a{
     border-left: none;
