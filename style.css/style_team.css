@@ -50,6 +50,41 @@ body {
   
 }
 
+@media  (max-width:768px)
+{
+ .navbar{
+  grid-template-columns: auto;
+  height: 95px;
+  justify-content: center;
+ 
+ }
+ .navbar a{
+  border-left: none;
+  width: 100% ;
+  display: block;
+  height: 50px;
+  border-bottom: 3px solid black;
+ }
+ .navbar:hover{
+  background-color:#3c5abe ;
+ }
+ .im{
+  height: auto;
+}
+ 
+}
+
+@media(max-width:768){
+  .navbar a{
+    height: 50px;
+    width: 33px;
+    padding: 50px;
+    font-size: 28px;
+  }
+  
+}
+
+
 
 
  
@@ -62,6 +97,16 @@ body {
     display: inline-block; 
     margin: 148px 0;
   }
+  @media  (max-width:768px){
+    .box{
+      margin: 370px 0;
+      justify-content: center;
+      display: block;
+      width: 140px;
+      height: 97px;
+      margin: 270px 10px;
+    }
+  }
   .inside{
     color: whitesmoke;
     padding-top: -5px;  
@@ -71,13 +116,35 @@ body {
     display: inline;
 
   }
-  .name{
+  @media  (max-width:768px){
+    .inside {
+      height: 60px;
+      font-size: 15px;
+      width: 40px;
+      padding: 0px;
+    }
+  }
+    .name{
     color: black;
     font-size: 25px;
     font-weight: bold;
     padding: 25px;
   } 
-  .y 
+  @media  (max-width:768px){
+    .name{
+      height: 60px;
+      font-size: 15px;
+      width: 70px;
+      padding: 0px;
+      display: grid;
+      padding: 0 50px;
+    }
+  }
+  
+  .li{
+    text-align: right;
+  }
+  .y
   {
     color: white;
     font-size: 30px;
