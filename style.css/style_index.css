@@ -54,7 +54,7 @@ body {
   {
    .navbar{
     grid-template-columns: auto;
-    height: 80px;
+    height: 95px;
     justify-content: center;
    
    }
